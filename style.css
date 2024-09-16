@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-weight:bold;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    border:1px solid gray;
+    border-radius: 15px;
+    padding:10px;
+    background-color: rgb(27, 26, 26);
+}
+.row{
+    margin:10px;
+}
+button{
+    padding:10px;
+    margin:4px;
+    width:40px;
+    font-weight:bold;
+    font-size:14px;
+    color:white;
+    background:gray;
+    border-radius: 8px;
+    border:none;
+    border-top:2px solid rgb(219, 219, 219);
+    border-left:2px solid rgb(219, 219, 219);
+    cursor: pointer;
+}
+input{
+    padding:20px;
+    margin:10px;
+    border:none;
+    background-color:rgb(219, 216, 216);
+    overflow-x: scroll;
+}
+hr{
+    width:100%;
+}
+.green-btn{
+    background-color:rgb(23, 175, 162)
+}
+.red-btn{
+    background-color:rgb(233, 46, 40)
+}
+#equal{
+    position:relative;
+    left:105px;
+}
